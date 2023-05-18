@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AILA PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d58a17da47.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGSW.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1 id="typing-text"></h1>
+            <p>Hi, I'm Aila J. Datanagan </p>
+        </div>
+    </div>
+</div>
+<!-- --------------------------About------------------------------------ -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aila.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Aila Datanagan, 19 years old. In our family, 
+                    there are four siblings, and we are all girls. 
+                    I am the second daughter in our family. 
+                    My father's name is Alexander Datanagan, and 
+                    my mother's name is Marichel Juan Datanagan.</p>
+
+                    <p> I have a tiny passion of shooting self-portraits, 
+                        reading amazing books, and engaging with social media.
+                        I record moments of self-expression and explore my own identity 
+                        via self-portraits. When I'm not in front of the camera, 
+                        I'm usually engaged in a good book, exploring into different 
+                        worlds and developing my imagination. Furthermore, going through 
+                        social media helps me to interact with people, find new ideas, 
+                        and keep up with current trends. It's a great combination of recording 
+                        memories, broadening my mind, and engaging with the internet world.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('personal information')">Personal Information</p>
+                        <p class="tab-links" onclick="opentab('likes')">Likes</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="personal information">
+                        <ul>
+                            <li><span>My Birthday is</span><br>July 10,2003</li>
+                            <li><span>I am from</span><br>Urbiztondo Pangasinan</li>
+                            <li><span>"I am currently studying</span><br> Computer Engineering at Pangasinan State University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="likes">
+                        <ul>
+                            <li><span>I like</span><br>cats</li>
+                            <li><span>I like</span><br>crowded places at the same time i hate it</li>
+                            <li><span>In ice cream i really like </span><br>chocolate flavor</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Elementary</span><br>Baug Elementary School</li>
+                            <li><span>Highschool</span><br>Urbiztondo Integrated School</li>
+                            <li><span>College</span><br>Pangasinan State University(Urdaneta Campus)</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- =--------------------Hobbies ------------------->
+<div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title">Hobbies</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="images/reading.jpg">
+                <div class="layer">
+                    <h3>Reading a books</h3>
+                    <p> Reading opens doors to limitless worlds, fueling imagination, expanding knowledge, and fostering empathy.</p>
+                    <a href="https://www.google.com.ph/books/edition/Sears_and_Zemansky_s_University_Physics/fv1bIkvb-20C?hl=en#bsht=CgVic2hocBIECAQwAQ">
+                        <i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/spotify.png">
+                <div class="layer">
+                    <h3>Music</h3>
+                    <p> Listening to music is a transformative experience that has the power to evoke emotions, uplift spirits, and create a deeply personal connection to the rhythm and melody of life.</p>
+                    <a href="https://open.spotify.com/playlist/4hf3v2uPqu8t7wLNzOCUvM?si=ae336566f6b44a1b"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Totoro.jpg">
+                <div class="layer">
+                    <h3>Movies</h3>
+                    <p> Watching a movie is like embarking on a cinematic journey, immersing oneself in compelling narratives, captivating visuals, and memorable performances that transport us to different realms of imagination and evoke a spectrum of emotions.</p>
+                    <a href="https://www.netflix.com/ph-en/title/60032294?source=35"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div> 
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------------------CONTACT ----------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-envelope"></i>ailadatanagan17@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>09672082138</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Griyeeen"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/griyenish/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/hreysna"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@_griyeeen"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <!-- <a href="images/eyyy.jpg" download class="btn btn2">Click for better life</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your name" required> 
+                  <input type="email" name="Email" placeholder="Your email" required>
+                  <textarea name="Messages" rows="6" placeholder= "Your message" ></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>AILA J. DATANAGAN <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+ const textElement = document.getElementById('typing-text');
+const text = "Exploring the world of computer engineering in order to become a front-end developer.";
+let index = 0;
+
+function typeNextLetter() {
+  if (index < text.length) {
+    textElement.textContent += text[index];
+    index++;
+    setTimeout(typeNextLetter, 30); 
+}
+}
+
+
+typeNextLetter();
+
+</script>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbySOUcgsKqyKfNDyc7ekEbSPG-dasgSTRJ-j44oIHAvGCQfsZBFOfHyaaHvfMRiVOE5/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        msg.innerHTML = "Sending message...";
+
+
+    const submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+     .then(response => {
+          form.reset();
+          msg.innerHTML = "Message sent successfully";
+          setTimeout(function() {
+            msg.innerHTML = "";
+          }, 2000);
+          submitBtn.disabled = false;
+        })
+        .catch(error => {
+          console.error('Error!', error.message);
+           msg.innerHTML = "An error occurred. Please try again.";
+          submitBtn.disabled = false;
+        });
+});
+  </script>
+</body>
+</html>
